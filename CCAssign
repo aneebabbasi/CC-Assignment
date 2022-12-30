@@ -1,0 +1,13 @@
+//Module 1
+import ast  
+regularexpression = ast.parse("print('(x*y)*a+b')")  
+print(regularexpression)  
+print(ast.dump(regularexpression))
+exec(compile(regularexpression, filename="Mod2", mode="exec"))
+
+//Mpdule2
+import ast  
+regularexpression = ast.parse("print('(x*y)*a+b')")  
+print(regularexpression)  
+print(ast.dump(regularexpression))
+exec(compile(regularexpression, filename="Mod2", mode="exec"))
